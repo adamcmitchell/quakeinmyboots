@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/detailsScrollView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/translucentBackground"
+    app:behavior_hideable="false"
+    app:behavior_peekHeight="70dp"
+    app:layout_behavior="@string/bottom_sheet_behavior">
+
+    <LinearLayout
+        android:id="@+id/earthquakeDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="visible">
+
+        <RelativeLayout
+            android:id="@+id/earthquake_details_tap_action_layout"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:paddingStart="20dp"
+            android:paddingEnd="20dp"
+            android:paddingBottom="20dp">
+
+            <TextView
+                style="@style/CustomTitleTextAppearance"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/earthquake_details_title"/>
+
+        </RelativeLayout>
+
+        <TextView
+            style="@style/EarthquakeDetailsTitle"
+            android:text="@string/earthquakes_details_location"/>
+        <TextView
+            android:id="@+id/earthquakeLocation"
+            style="@style/EarthquakeDetailsText"/>
+        <TextView
+            style="@style/EarthquakeDetailsTitle"
+            android:text="@string/earthquakes_details_magnitude"/>
+        <TextView
+            android:id="@+id/earthquakeMagnitude"
+            style="@style/EarthquakeDetailsText"/>
+
+        <TextView
+            style="@style/EarthquakeDetailsTitle"
+            android:text="@string/earthquakes_details_depth"/>
+        <TextView
+            android:id="@+id/earthquakeDepth"
+            style="@style/EarthquakeDetailsText"/>
+
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

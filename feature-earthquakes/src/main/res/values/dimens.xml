@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Card view. -->
+    <dimen name="card_corner_radius">0dp</dimen>
+    <dimen name="card_elevation">1dp</dimen>
+
+    <dimen name="earthquake_details_title">20dp</dimen>
+    <dimen name="earthquake_details_text">15sp</dimen>
+
+    <integer name="earthquake_list_span_count">1</integer>
+</resources>

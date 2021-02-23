@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adammitchell.earthquakes.feature_earthquakes">
+
+    <!-- Permissions -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name="com.adammitchell.earthquakes.feature_earthquakes.presentation.list.EarthquakesActivity"
+            android:label="@string/earthquakes_screen_title" />
+        <activity
+            android:name="com.adammitchell.earthquakes.feature_earthquakes.presentation.detail.EarthquakeDetailsActivity"
+            android:label="@string/earthquake_details_screen_title" />
+    </application>
+
+
+</manifest>

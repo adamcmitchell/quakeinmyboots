@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="earthquakes_screen_title">Earthquakes</string>
+    <string name="earthquake_details_screen_title">Earthquake details</string>
+
+    <string name="earthquakes_list_time">Time (UTC)</string>
+    <string name="earthquakes_list_depth">Depth (KM)</string>
+    <string name="earthquakes_list_magnitude">Magnitude</string>
+
+    <string name="earthquake_details_title">Details</string>
+    <string name="earthquakes_details_time_utc_header">Time (UTC)</string>
+    <string name="earthquakes_details_depth">Depth (KM)</string>
+    <string name="earthquakes_details_magnitude">Magnitude</string>
+    <string name="earthquakes_details_location">Location</string>
+
+    <string name="failure_network_connection">No Network Connection.</string>
+    <string name="failure_server_error">Server Error</string>
+    <string name="action_refresh">Refresh</string>
+</resources>
